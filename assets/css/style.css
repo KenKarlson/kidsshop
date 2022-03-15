@@ -409,4 +409,15 @@ html, body {
 .container-header {
   padding: 12px 0;
 }
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
 /*# sourceMappingURL=style.css.map */
