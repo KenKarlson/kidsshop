@@ -1,4 +1,5 @@
 .footer
+  margin-top: 95px
   &-wrapper
     display: flex
     align-items: start
@@ -20,7 +21,20 @@
     list-style: none
     margin: 0
     padding: 0
-
+  &__form
+    display: flex
+    flex-direction: column
+  &__input
+    //position: relative
+    margin-bottom: 35px
+    padding-top: 12px
+    padding-bottom: 8px
+    width: 452px
+    //border: none
+    border-left: none
+    border-right: none
+    border-top: none
+    border-bottom: 1px solid #C4C4C4
   &__item
   &__link
     margin-bottom: 8px
@@ -33,3 +47,13 @@
     color: inherit
   &__contact-form
     flex-grow: 3
+  &__button
+    align-items: center
+    padding: 8px 28px
+    //position: absolute
+    width: 150px
+    //height: 36px
+    right: 280px
+    top: 10px
+    border: 1px solid #333333
+    cursor: pointer
