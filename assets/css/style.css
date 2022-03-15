@@ -420,4 +420,49 @@ html, body {
       -ms-flex-align: start;
           align-items: start;
 }
+
+.footer__list {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.footer__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.footer__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: inherit;
+}
+
+.footer__contact-form {
+  -webkit-box-flex: 3;
+  -webkit-flex-grow: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
 /*# sourceMappingURL=style.css.map */
